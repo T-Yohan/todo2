@@ -21,7 +21,6 @@ const send = (value) => {
                 value={task}
                 onChangeText={text=>setTask(text)}
                 onSubmitEditing={(value) =>send(value.nativeEvent.text) }
-      
       />
     </View>
   )

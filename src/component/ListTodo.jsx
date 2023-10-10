@@ -2,6 +2,7 @@ import { View, Text, ActivityIndicator, FlatList } from 'react-native'
 import React, { useEffect, useState } from 'react'
 import firestore from '@react-native-firebase/firestore';
 import ItemTodo from './ItemTodo';
+import styles from '../styles';
 
 const ListTodo = () => {
 
@@ -35,7 +36,7 @@ loading && setLoading(false);
 }, [])
 
   return (
-    <View>
+    <View style={styles.list}>
       {loading? <ActivityIndicator animating={true}/> 
       : <FlatList
       data={todos}
