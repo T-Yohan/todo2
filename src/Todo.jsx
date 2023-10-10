@@ -1,9 +1,8 @@
 import { View, Text } from 'react-native'
-import React, { useEffect } from 'react'
+import React from 'react'
 import styles from './styles'
 import AddTodo from './component/AddTodo'
 import ListTodo from './component/ListTodo'
-import ItemTodo from './component/ItemTodo'
 
 const Todo = () => {
 
