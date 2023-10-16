@@ -7,14 +7,15 @@ import Biker from './exoTemplate/biker/Biker'
 import Discover from './exoTemplate/discover/Discover'
 import LeBonCoin from './tuto/le-bon-coin/LeBonCoin'
 import AuthApp from './tuto/authApp/AuthApp'
+import Test from './test161023/Test'
 
 
 const App = () => {
 
 
   return (
-    
-    <AuthApp/>
+    <Test/>
+    // <AuthApp/>
     // <LeBonCoin/>
 
   )
