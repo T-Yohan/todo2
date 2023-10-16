@@ -8,7 +8,7 @@ import Icon from 'react-native-vector-icons/MaterialIcons';
 const ItemLeBonCoin = ({product}) => {
 
 const goto = () => { 
-    console.log('product',product.id);
+
     }
 
     return (
